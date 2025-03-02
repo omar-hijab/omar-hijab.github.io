@@ -1,0 +1,36 @@
+body {
+font-family: "Roboto",serif;
+background-color:#D3D3D3;
+opacity: .999;
+}
+
+ul, li, p {
+	padding: 5px;
+  list-style-type: none;
+  font-weight: 400;
+}
+
+p, h1 {
+font-weight: 400;
+}
+
+.normal{
+  font-weight: 400;
+}
+
+.light{
+  font-weight: 100;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+
+ header {
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+	z-index:1;
+      }

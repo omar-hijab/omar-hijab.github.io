@@ -1,0 +1,19 @@
+.header {
+  position: relative;
+  max-width: 100%;
+  background-image: url("/images/masthead.png");
+  background-repeat: no-repeat;
+  height: auto;
+}
+
+header {
+    width: 100%;
+    background-image:url("/images/masthead.png");
+}
+
+#content {
+font- family: "Roboto";
+font-weight: 400;
+}
+
+
