@@ -13,7 +13,7 @@ li { margin-bottom: 10px; }
 
 body { font-family: "Times New Roman", Times, serif; font-size: 1.5vmax; background: #fff; }
 
-p { padding: 0 0.5rem; font-weight: 300; line-height: 1.25; font-size: 1.5vmax; }
+ul li p { padding: 0 0.5rem; font-weight: 300; line-height: 1.25; font-size: 1.5vmax; }
 
 nav { width: 100%; height: auto; display: block; padding-bottom: 2vh; font-size: 2vmax; }
 
