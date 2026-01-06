@@ -11,7 +11,7 @@ nav li { display:  inline-block; text-align: center; padding: 5px 10px;  }
 
 li { margin-bottom: 10px; font-weight: 300; line-height: 1.25; font-size: 1.5vmax; }
 
-body { font-family: "Times New Roman", Times, serif; font-size: 1.5vmax; background: #fff; }
+body { width: 100%; font-family: "Times New Roman", Times, serif; font-size: 1.5vmax; background: #fff; }
 
 p { padding: 0 0.5rem; font-weight: 300; line-height: 1.25; font-size: 1.5vmax; }
 
