@@ -22,4 +22,4 @@ img { align: left; max-width: 40%; height: auto; }
 a { text-decoration: none; }
 
 
-@media only screen and (max-width: 1150px) { img   max-width: 80%; } }
+@media only screen and (max-width: 1150px) { img {  max-width: 80%; } }
