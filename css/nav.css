@@ -3,7 +3,7 @@ h1 { align: bottom; margin-top: 0; margin-bottom: 0; font-weight: 300; font-size
 
 hr { margin: 0.5rem 0; }
 
-ul { list-style-type: none; }
+/* ul { list-style-type: none; } */
 
 nav li { display:  inline-block; text-align: center; padding: 5px 10px;  }
 
