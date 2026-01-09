@@ -7,19 +7,12 @@ TARGET_DIR="./unfcu_name_change"
 echo "<!DOCTYPE html><html><head><title>Directory Listing</title></head><body><h1>Directory Listing</h1><ul>" > "$TARGET_DIR/index.html"
 
 # Add links to all other .html files in the directory
-for file in "$TARGET_DIR"/*.html; do
+for file in "$TARGET_DIR"/*.pdf; do
     if [ -e "$file" ] && [ "$(basename "$file")" != "index.html" ]; then
         echo "<li><a href=\"$(basename "$file")\">$(basename "$file")</a></li>" >> "$TARGET_DIR/index.html"
     fi
 done
 
-# Add links to all subdirectories
-for dir in "$TARGET_DIR"/*/; do
-    if [ -d "$dir" ]; then
-        dirname=$(basename "$dir")
-        echo "<li><a href=\"$dirname/\">$dirname/</a></li>" >> "$TARGET_DIR/index.html"
-    fi
-done
 
 echo "</ul></body></html>" >> "$TARGET_DIR/index.html"
 
