@@ -1,13 +1,13 @@
 
 body { width: 100%; font-family: "Times New Roman", Times, serif; font-size: 1.5vmax; background: #fff; }
 
-h1 { font-weight: 300; font-size: 3vmax; } 
+h1 { font-weight: 300; font-size: 4vmax; } 
 
 li { max-width: 95%; margin-bottom: 10px; font-weight: 300; line-height: 1.25; font-size: 1.5vmax; }
 
-img { align: left; max-width: 60%; height: auto; }
+img { display: block; max-width: 60%; height: auto; }
 
-#masthead { align: center; max-width: 99%; height: auto; }
+#masthead { display: block; margin: 0 auto; max-width: 99%; height: auto; }
 
 a { text-decoration: none; }
 
